@@ -26,7 +26,7 @@ body{
 .outer::before{
   content:"";
   opacity:0.7;
-  background-image:url("back2.png");
+  background-image:url("/assets/images/back2.png");
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -129,14 +129,14 @@ body{
 }
 input{
   padding:15px 15px;
-  width:20vw;
+  width:22vw;
   height:6vh;
   margin:0 auto;
   border-radius:8px;
   border:none;
 }
 .trip{
-  padding:25px 0 0 0;
+  padding:2px 0 0 0;
   background-color:turquoise;
   display:flex;
   flex-direction:column;
@@ -148,7 +148,7 @@ input{
   color:turquoise;
   border-radius:15px;
   font-weight:bold;
-  width:20vw;
+  width:22vw;
   height:6vh;
   border:none;
   margin:20px 0 0 0;

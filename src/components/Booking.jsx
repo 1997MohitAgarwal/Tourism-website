@@ -41,9 +41,16 @@ export default function(){
   function handleSubmit(e){
     e.preventDefault()
   }
-  let image=["pic1.png","pic2.png","pic3.png","pic4.png","pic6.png","pic7.png"]
+  let image=[
+    "/assets/images/pic1.png",
+    "/assets/images/pic2.png",
+    "/assets/images/pic3.png",
+    "/assets/images/pic4.png",
+    "/assets/images/pic6.png",
+    "/assets/images/pic7.png"
+  ]
   return(
-    <>
+    <div style={{paddingBottom:"50px"}}>
       <h2 className="text-info text-center edit">Welcome to <span className="text-danger">Hawaii</span></h2>
       <h4 className="text-info text-center edit">Turn your <span className="text-danger">dream</span> holiday into a <span className="text-danger">reality</span> !</h4>
        <div>
@@ -73,6 +80,6 @@ export default function(){
         <button onClick={handle_click} className="btn5">Submit</button>
           </form>
       </div>
-    </>
+    </div>
   )
 }
